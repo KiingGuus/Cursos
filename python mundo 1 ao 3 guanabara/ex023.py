@@ -1,0 +1,6 @@
+n=int(input('Digite um numero: '))
+print('Analizando o numero: {}'.format(n))
+print('U = {}'.format(n//1%10))
+print('D = {}'.format(n//10%10))
+print('C = {}'.format(n//100%10))
+print('M = {}'.format(n//1000%10))
