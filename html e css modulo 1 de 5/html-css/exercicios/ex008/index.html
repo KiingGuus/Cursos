@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formatações de textos</title>
+    <style> 
+    mark{
+    background-color: blueviolet;
+    }    
+    </style>
 </head>
 <body>
     <h1>Principais Formatações</h1>
@@ -13,11 +18,33 @@
     <p>Nessa frase temos um <b>termo em negrito</b> usando a tag b</p>
     <!--semantica--> 
     <p>Nesta frase tenho um <strong>termo em destaque</strong></p>
+    
     <h2>Italico / Enfase</h2>
     <!--Não semantica-->
     <p>Nesta frase temos um <i>termo em italico</i> usando a tai i</p>
     <!--semantica-->
     <p>Nesta frase temos um <em>termo em emfase</em> usando a tag em</p>
+   
+    <h2>Texto marcado</h2>
+    <!--style dentro da tag-->
+    <p>Podemos criar tambem <mark style="background-color: #00ffea ;">um texto marcando</mark> usando a tag mark</p>
+    <!--style no head-->
+    <p>E no outro paragrafos temos <mark>outro texto marcado</mark> no final</p>
+    
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando <big>um texto grande</big> e <small>um texto pequeno</small> neste paragrafo</p>
+    
+    <h2>Texto excluido</h2>
+    <p>Podemos marcar um <del>texto como excluido</del> para indicar que ele deve ser lido mas nao considerado</p>
+   
+    <h2>texto inserido</h2>
+    <p>Podemos marcar um <ins>texto como incluido</ins> para dar uma enfase que ele foi adcionado depois</p>
+    <!--Não semantico-->
+    <p>podemos tambem <u>sublinhar com a tag u</u> que é nao semantico</p>
 
+    <h2>texto sobreescrito</h2>
+    <p>para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <h2>texto subscrito</h2>
+    <p>para inserir coisas do tipo H<sub>2</sub>O</p>
 </body>
 </html>
