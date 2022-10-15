@@ -1,38 +1,82 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras formatações</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formatações</h1>
-    <h2>Codigo-Fonte / pre-formatado</h2>
-    <p>O comando <code>document.getElementsById('teste')</code> é escrito em linguagem javascript</p>
-    <pre>
-        <code><!--Linguagem python-->
-            num = int(input('digite um numero inteiro'))
-            if num % 2 == 0:
-                print(f'O numero {num} é PAR')
-            elif:
-                print(f'O numero {num} é IMPAR')
-            print('Fim do programa')
-        </code>
-        <h2>citações simples</h2>
-        <p>Como diria um pai de um amigo: <q>o computador é um burro muito rapido</q></p>
-        
-        <h2>citações completas</h2>
-        <p>segindo Jeff Noble, no seu livro em HTML para leigos</p>
-        <blockquote cite="https://books.google.com.br/books/about/HTML_XHTML_e_CSS_Para_Leigos.html?id=E8ZtDwAAQBAJ&redir_esc=y">
-        A diferença entre elementos em line e com bloco te etxto é importante os elementos em html neste capitulo descrevem o bloco de texto.
-        </blockquote>
-        
-        <h2>abreviações</h2>
-        <p>Estou estudando <abbr title="HyperText Markup language">HTML</abbr> e <abbr title="Cascading Style Sheet">CSS</abbr>. Estou adorando!</p>
-        
-        <h2>Texto Invertido</h2>
-        <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
-    </pre>
+    <h1>Trabalhando com listas</h1>
+    
+    <h2>Listas Ordenadas</h2>
+    <ol type="1">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <ol type="1" start="5">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <ol type="A">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <ol type="A" start="9">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <ol type="a">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <ol type="a" start="9">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <ol type="i">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <ol type="I">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+
+    <h2>Listas não Ordenadas</h2>
+    <ul type="square">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar banho</li>
+    </ul>
+    <ul type="disc">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar banho</li>
+    </ul>
+    <ul type="circle">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar banho</li>
+    </ul>
+
+    <h2>Lista de definições</h2>
+    <dt>HTML</dt>
+    <dd>Linguagem de marcação para a criação do conteudo de um site</dd>
+    <dt>CSS</dt>
+    <dd>Linguagem de marcação para a criação de design de um site.</dd>
+    <dt>Javacript</dt>
+    <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
 </body>
 </html>
