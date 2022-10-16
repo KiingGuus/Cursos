@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>Medias</h1>
+    <h2>Imagem dinamica</h2>
+    <p>Tente abrir esse site em varios dipositivos diferentes ou almente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fotop.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/fotom.jpg" type="image/jpg">
+        <img src="imagens/fotog.jpg" alt="imagem flexivel">
+    </picture>
+    <h2>Reproduzindo audio</h2>
+    <p>Vamos aprender a reproduzir audio em html5</p>
+    <!--formatos audio-->
+    <!--mp3 / OGG / WAV-->
+    <audio preload="metadata" controls>
+        <source src="media/Cartoon - On _ On.mp3.mp3" type="audio/mpeg">
+        <source src="media/Cartoon - On _ On.oggvorbis.ogg" type="audio/ogg">
+        <source src="#" type="audio/wav">
+        <a href="media/Cartoon - On _ On.mp3.mp3">Clique aqui para baixar o arquivo</a>
+        <p>infelismente o seu navegador nao consegue reproduzir audio</p>
+    </audio>
+    <!--mp3
+    <audio src="media/Cartoon - On _ On (feat. Daniel Levi) ( Official Video)(MP3_160K)_1.mp3" controls></audio>-->
+</body>
+</html>
