@@ -4,16 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>exercicios</title>
+    <title>Verificador de idade</title>
     <link rel="stylesheet" href="modelo1.css">
 </head>
 <body>
     <header>
-        <h1>Titulo</h1>
+        <h1>Veirificador de idade</h1>
     </header>
     <section>
-        <div>testando...</div>
-        <div>Ola</div>
+        <form id="form" action="">
+            <div>
+                <p>Ano de nascimento:
+                    <input type="number" name="txtano" id="txtano" min="0">
+                    <p>sexo:
+                        <input type="radio" name="radsex" id="masc" checked>
+                        <label for="masc">Masculino</label>
+                        <input type="radio" name="radsex" id="fem">
+                        <label for="fem">Feminino</label>
+                    </p>
+                    <p>
+                        <input type="button" value="Verificar" onclick="verificar()">
+                        <input id="remover" type="reset" value="Reiniciar" onclick="reiniciar()">
+                    </p>
+                </p>
+            </div>
+        </form>
+        <div id="res"></div>
     </section>
     <img src="imagens/redimencionadas/bebe.jpg" alt="">
     <img src="imagens/redimencionadas/criança M.jpg" alt="">
