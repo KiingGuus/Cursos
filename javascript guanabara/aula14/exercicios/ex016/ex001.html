@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicios</title>
+    <link rel="stylesheet" href="modelo1.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <section>
+            <div>
+                <form id="form" action="">
+                    <p>
+                        Inicio: <input type="number" name="inicio" id="numberini">
+                    </p>
+                    <p>
+                        Fim: <input type="number" name="fim" id="numberfim">
+                    </p>
+                    <p>
+                        Pulos: <input type="number" name="pulos" id="numberpul">
+                    </p>
+                </form>
+                <p>
+                    <button id="iniciar" onclick="iniciar()">Iniciar</button> 
+                    <button id="resetar" onclick="reiniciar()">Resetar</button>
+                </p>
+            </div>
+        <div id="res"></div>
+    </section>
+    <footer>
+        <p>&copy; curso em video</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
