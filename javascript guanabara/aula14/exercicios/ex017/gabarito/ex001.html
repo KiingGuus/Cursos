@@ -13,12 +13,15 @@
     </header>
     <section>
         <div>
-            <p>Qual tabuada voce deseja ver? <input name="tabuada" type="number" id="number"></p>
-            <p>
-            <button id="botao" onclick="calcular()">Calcular</button>
+            <p>Numero:<input name="num" type="number" id="txtn">
+                <input type="button" value="Gerar Tabuada" onclick="tabuada()">
             </p>
         </div>
-        <div id="res"></div>
+        <div>
+            <select name="tabuada" id="seltab" size="10">
+                <option>Digite um numero acima</option>
+            </select>
+        </div>
     </section>
     <footer>
         <p>&copy; curso em video</p>

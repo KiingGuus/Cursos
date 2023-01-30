@@ -7,7 +7,7 @@ function iniciar(){
     var fim = Number(fim000.value);
     var pulos = Number(pulos000.value);
     if (inicio <= 0 || fim <= inicio || pulos <= 0 || pulos >= fim){
-        res.innerHTML += ('[ERRO] Informações erradas!');
+        res.innerHTML = ('[ERRO] Informações erradas!');
     } else{
         for( var somando = inicio; somando <= fim; somando += pulos){
             res.innerHTML += `➡ ${somando}`;
